@@ -1,0 +1,150 @@
+# CVS $Revision$ $Author$ -- Tue Dec 15 01:48:08 2015 -- reformated by PCGen PrettyLST v6.06.00
+SOURCELONG:My Pathfinder Campaign	SOURCESHORT:MPC	SOURCEWEB:http://www.mywebsite.com	SOURCEDATE:2008-01
+
+# Class Feature Blank
+#	KEY:xxx ~
+#	CATEGORY:Special Ability
+#	TYPE:xxx Class Feature.SpecialQuality
+#	SOURCEPAGE:p.
+#	DESC:
+
+# Race or Racial Trait Blank
+#	KEY:xxx ~
+#	CATEGORY:Special Ability
+#	TYPE:xxx Race Trait.Race Trait.SpecialQuality
+#	SOURCEPAGE:p.
+#	DESC:
+
+Swashbuckler (Ex)	CATEGORY:Special Ability	TYPE:DashingSwordsmanClassFeatures.SpecialQuality	KEY:Dashing Swordsman ~ Swashbuckler	DESC:At 1st level, you gain Combat Expertise as a bonus feat, even if you don't already meet the prerequisites for it. If you already have that feat, you may instead gain any feat which has Combat Expertise for a prerequisite as a bonus feat. At 3rd level and every 2 levels afterward, choose from the following feat trees: Improved Feint, Improved Disarm, and Improved Trip. You can gain a feat from these trees as long as you meet the feat requirements.
+
+Dashing Strike (Ex)	CATEGORY:Special Ability	TYPE:DashingSwordsmanClassFeatures.SpecialQuality	KEY:Dashing Swordsman ~ Dashing Strike	DESC:You gain the ability to strike your foe with your sheer force of personality. Whenever you hit a foe with a weapon to which you can apply the Weapon Finesse feat, you may make a witty pun, spout a catch-phrase or say a one-liner. You must be able to speak in order to do so, and your foe needs to be able to hear and understand you. If you do, then you add half your ranks in Perform (comedy), in addition to your Dexterity modifier, to the attack roll. On a successful hit, apply your Charisma modifier, in addition to your Strength modifier, to the damage roll (this is multiplied on a crit). If you make the same joke more than once per battle, you don’t receive the bonuses.
+
+Dramatic Entrance (Ex)	CATEGORY:Special Ability	TYPE:DashingSwordsmanClassFeatures.SpecialQuality	KEY:Dashing Swordsman ~ Dramatic Entrance	DESC:At 3rd level, you leap into action just in the nick of time, catching the perfect moment for maximum dramatic effect. Whenever you make a particularly striking entrance, as determined by the DM, you gain a number of benefits. You do not take any damage from hazards of the entrance, such as breaking through windows or leaping through flames. Any enemies that see you make the entrance must make a Will save, with a DC equal to 10 + your class level + your Charisma modifier, or be dazzled for 1 round.
+
+Quip (Ex or Su)	CATEGORY:Special Ability	TYPE:DashingSwordsmanClassFeatures.SpecialQuality	KEY:Dashing Swordsman ~ Quip	DESC:At 2nd level, and each subsequent even level, you learn a quip. Whenever you use your dashing strike ability, you may choose to use a single one of your quips along with it. You may use each quip three times per encounter, twice if it requires you to be a 4th Level Dashing Swordsman, or once if it requires you to be a 6th Level Dashing Swordsman. You may use each quip a total number of times per day equal to your Cha modifier. Some quips have minimum class level requirements you must meet before you can learn them.
+
+
+#Quips
+"Cat Got Your Tongue?" (Su)	CATEGORY:Special Ability	TYPE:SpecialQuality.Quip	KEY:Quip ~ Cat Got Your Tongue	DESC:When you use the “cat got your tongue?” quip, the enemy you strike must make a Will save, DC %1, or be silenced, as the spell, with caster level equal to %2. The silence affects only the enemy you strike–it does not emanate from him. The effect lasts for %2 rounds.|(DashingSwordsmanLVL + 10 + CHA)|DashingSwordsmanLVL	PRECLASS:1,Dashing Swordsman=4
+
+“Don’t Let Your Guard Down!” (Ex)	CATEGORY:Special Ability	TYPE:SpecialQuality.Quip	KEY:Quip ~ Don’t Let Your Guard Down	DESC:When you use the “don’t let your guard down!” quip, you attack ignores any damage reduction the enemy struck might have.	PRECLASS:1,Dashing Swordsman=4
+
+“Gotcha!” (Ex)	CATEGORY:Special Ability	TYPE:SpecialQuality.Quip	KEY:Quip ~ Gotcha!	DESC:When you use the “gotcha!” quip, you deal an additional %1 damage equal to half the number of ranks you have in Perform (Comedy).|skillinfo("RANK", "Perform (Comedy)")/2
+
+“I’ll Be Gentle!” (Ex)	CATEGORY:Special Ability	TYPE:SpecialQuality.Quip	KEY:Quip ~ I’ll Be Gentle	DESC:When you use the “I’ll be gentle!” quip, you attack deals only nonlethal damage. However, you deal an additional 1d8 points of damage.
+
+”Just Quit!” (Ex)	CATEGORY:Special Ability	TYPE:SpecialQuality.Quip	KEY:Quip ~ Just Quit	DESC:When you use the “just quit!” quip, the enemy you strike must make a Will save, DC %1, or take a -%2 penalty on all attack rolls it makes against you.|(DashingSwordsmanLVL + 10 + CHA)|DashingSwordsmanLVL/2	PRECLASS:1,Dashing Swordsman=6
+
+“Looks Like That Hurt!” (Ex)	CATEGORY:Special Ability	TYPE:SpecialQuality.Quip	KEY:Quip ~ Looks Like That Hurt	DESC:When you use the “looks like that hurt!” quip, the enemy you strike must make a Fortitude save, DC %1, or be stunned for 1 round.|(DashingSwordsmanLVL + 10 + CHA)	PRECLASS:1,Dashing Swordsman=6
+
+“Ooh, Burn!” (Su)	CATEGORY:Special Ability	TYPE:SpecialQuality.Quip	KEY:Quip ~ Ooh, Burn	DESC:When you use the “ooh, burn!” quip, your attack deals an additional 1d6 points of fire damage.
+
+“Watch Your Feet!” (Ex)	CATEGORY:Special Ability	TYPE:SpecialQuality.Quip	KEY:Quip ~ Watch Your Feet	DESC:When you use the “watch your feet!” quip, you may make a trip attempt.
+
+“You Fail!” (Su)	CATEGORY:Special Ability	TYPE:SpecialQuality.Quip	KEY:Quip ~ You Fail	DESC:When you use the “you fail!” quip, the enemy you strike must make a Will save, DC %1, or take 1d6 points of Charisma damage. Even if he successfully saves, he still takes 1 point of Charisma damage.|(DashingSwordsmanLVL + 10 + CHA)|DashingSwordsmanLVL/2	PRECLASS:1,Dashing Swordsman=6
+
+"You'll Feel That One!" (Ex)	CATEGORY:Special Ability	TYPE:SpecialQuality.Quip	KEY:Quip ~ You'll Feel That One	DESC:You may only use the "you'll feel that one!" quip when you successfully score a critical hit. You gain a luck bonus on the roll to confirm the critical hit equal to %1.|CHA
+
+Extra Critical Damage (Ex)	CATEGORY:Special Ability	TYPE:DashingSwordsmanClassFeatures.SpecialQuality	KEY:Dashing Swordsman ~ Extra Critical Damage	DESC:The Dashing Swordsman learns it's easier to be heroic when you're not just scoring lucky hits, but when you're dealing more damage on those hits. The Dashing Swordsman deals an extra +%1d6 damage on a critical hit.|(DashingSwordsmanLVL+1)/3
+
+Surprising Entrance (Ex)	CATEGORY:Special Ability	TYPE:DashingSwordsmanClassFeatures.SpecialQuality	KEY:Dashing Swordsman ~ Surprising Entrance	DESC:At 8th level, you can catch your foes off guard if you make a dramatic entrance. If you make a dramatic entrance immediately before the start of combat, you receive a +5 morale bonus to your Initiative check and may act during the surprise round, if there is one, even if you normally could not.
+
+Better Lucky Than Skilled (Su)	CATEGORY:Special Ability	TYPE:DashingSwordsmanClassFeatures.SpecialQuality	KEY:Dashing Swordsman ~ Better Lucky Than Skilled	DESC:At 10th level, Fate bestows her favors upon you. Once per day, at the beginning of an encounter, you may choose to draw upon supernatural luck. For the duration of the encounter, whenever you make an attack roll, skill check, ability check, or saving throw, you may roll two dice, and choose which die roll to use. However, after using this ability, you become drained. You are exhausted, and cannot use any of the spell-like or supernatural class features of the Dashing Swordsman class until you have had eight hours of rest.
+
+###Block:
+# Ability Name							Bonus Ability Pool
+#CATEGORY=Special Ability|Dashing Swordsman ~ Bonus Feats.MOD	BONUS:ABILITYPOOL|Dashing Swordsman Bonus Feat|-1|PREVARGTEQ:DashingSwordsmanLvl,1|PREVAREQ:DashingSwordsman_CF_BonusFeat1,1
+#CATEGORY=Special Ability|Dashing Swordsman ~ Bonus Feats.MOD	BONUS:ABILITYPOOL|Dashing Swordsman Bonus Feat|-1|PREVARGTEQ:DashingSwordsmanLvl,3|PREVAREQ:DashingSwordsman_CF_BonusFeat3,1
+#CATEGORY=Special Ability|Dashing Swordsman ~ Bonus Feats.MOD	BONUS:ABILITYPOOL|Dashing Swordsman Bonus Feat|-1|PREVARGTEQ:DashingSwordsmanLvl,5|PREVAREQ:DashingSwordsman_CF_BonusFeat5,1
+#CATEGORY=Special Ability|Dashing Swordsman ~ Bonus Feats.MOD	BONUS:ABILITYPOOL|Dashing Swordsman Bonus Feat|-1|PREVARGTEQ:DashingSwordsmanLvl,7|PREVAREQ:DashingSwordsman_CF_BonusFeat7,1
+#CATEGORY=Special Ability|Dashing Swordsman ~ Bonus Feats.MOD	BONUS:ABILITYPOOL|Dashing Swordsman Bonus Feat|-1|PREVARGTEQ:DashingSwordsmanLvl,9|PREVAREQ:DashingSwordsman_CF_BonusFeat9,1
+
+
+Combat Expertise	KEY:Dashing Swordsman Bonus Feat ~ Combat Expertise	CATEGORY:FEAT	TYPE:DashingSwordsmanBonusFeat	VISIBLE:DISPLAY	PREMULT:1,[PREABILITY:1,CATEGORY=Feat,Dashing Swordsman Bonus Feat ~ Combat Expertise],[!PREABILITY:1,CATEGORY=FEAT,Combat Expertise]												ABILITY:FEAT|VIRTUAL|Combat Expertise
+
+CATEGORY=FEAT|Improved Feint.MOD	TYPE:DashingSwordsmanBonusFeat
+CATEGORY=FEAT|Blistering Feint.MOD	TYPE:DashingSwordsmanBonusFeat
+CATEGORY=FEAT|Moonlight Stalker Master.MOD	TYPE:DashingSwordsmanBonusFeat
+CATEGORY=FEAT|Deceptive Exchange.MOD	TYPE:DashingSwordsmanBonusFeat
+CATEGORY=FEAT|Disengaging Feint.MOD	TYPE:DashingSwordsmanBonusFeat
+CATEGORY=FEAT|Disengaging Flourish.MOD	TYPE:DashingSwordsmanBonusFeat
+CATEGORY=FEAT|Disengaging Shot.MOD	TYPE:DashingSwordsmanBonusFeat
+CATEGORY=FEAT|Greater Feint.MOD	TYPE:DashingSwordsmanBonusFeat
+CATEGORY=FEAT|Passing Trick.MOD	TYPE:DashingSwordsmanBonusFeat
+
+CATEGORY=FEAT|Improved Disarm.MOD	TYPE:DashingSwordsmanBonusFeat
+CATEGORY=FEAT|Break Guard.MOD	TYPE:DashingSwordsmanBonusFeat
+CATEGORY=FEAT|Disarming Strike.MOD	TYPE:DashingSwordsmanBonusFeat
+CATEGORY=FEAT|Greater Disarm.MOD	TYPE:DashingSwordsmanBonusFeat
+
+CATEGORY=FEAT|Improved Trip.MOD	TYPE:DashingSwordsmanBonusFeat
+CATEGORY=FEAT|Binding Throw.MOD	TYPE:DashingSwordsmanBonusFeat
+CATEGORY=FEAT|Drag Down.MOD	TYPE:DashingSwordsmanBonusFeat
+CATEGORY=FEAT|Felling Escape.MOD	TYPE:DashingSwordsmanBonusFeat
+CATEGORY=FEAT|Felling Smash.MOD	TYPE:DashingSwordsmanBonusFeat
+CATEGORY=FEAT|Fury’s Fall.MOD	TYPE:DashingSwordsmanBonusFeat
+CATEGORY=FEAT|Fury’s Snare.MOD	TYPE:DashingSwordsmanBonusFeat
+CATEGORY=FEAT|Greater Trip.MOD	TYPE:DashingSwordsmanBonusFeat
+CATEGORY=FEAT|Ki Throw.MOD	TYPE:DashingSwordsmanBonusFeat
+CATEGORY=FEAT|Binding Throw.MOD	TYPE:DashingSwordsmanBonusFeat
+CATEGORY=FEAT|Improved Ki Throw.MOD	TYPE:DashingSwordsmanBonusFeat
+CATEGORY=FEAT|Tripping Strike.MOD	TYPE:DashingSwordsmanBonusFeat
+CATEGORY=FEAT|Tripping Twirl.MOD	TYPE:DashingSwordsmanBonusFeat
+CATEGORY=FEAT|Tripping Staff.MOD	TYPE:DashingSwordsmanBonusFeat
+
+
+#CATEGORY=FEAT|Tripping Staff.MOD	TYPE:CombatExpertiseBonusFeat
+
+
+
+
+#insert your data here
+
+#Every line that starts with a '#' is a comment. You may want to remove these comments, if you use this file to set up
+#your own data. Remember not to put the '#' at the start of your own data, as PCGen would see it as a comment only.
+#
+#When Running PCGen, you can select "Help > Documentation > List Files > List File Tag Index > Feat File tags" to find
+#out how the tags in the feats file work. Some of the tags used here are global tags. You will see an alphabetical
+#listing of all PCGen tags to the left of the documentation window. You can find the global tags there as well.
+#
+# Abilities are the newest method for all aspects of class & race abilities. Currently we use hidden feats to emulate
+# class and racial abilities. The advent of Abilities allows us to use one standard format for a variety of things.
+# Generally Abilities are exactly the same in format as a Feat with the exception of a NEW tag CATEGORY which tells
+# PCGen what the ability is to be categoried as - example: My Ability is part of the my_abilities category, So I can add
+# points only to the my_abilities allowing very small and restricted lists. Another example would be Fighter Bonus feats.
+#
+# Feat and ability are used through out this example as they almost the same thing - ABILITY can also be used to add "Feats"
+# using the CATEGORY:FEAT tag.
+# You can also use PREFEAT for any CATEGORY:FEAT, for the rest you'll need to use PREABILITY:x,CATEGORY=<category>,Foo,TYPE.Bar (x is the number)
+#####1st Example
+
+#My Ability			CATEGORY:my_abilities		TYPE:General.DataMonkey		DESC:See Text						SOURCEPAGE:Custom
+#My Second Ability	CATEGORY:Special			TYPE:MonkeyFoo			DESC:This is the great second ability.		SOURCEPAGE:Custom	PREABILITY:1,CATEGORY=my_abilities,My Ability
+
+###SAMPLE FOR 'Ability by Skill'
+#Ac Ba			CATEGORY:AbilitybySkill		TYPE:AbilitybySkill.Movement	VISIBLE:YES		!PREABILITY:1,CATEGORY=AbilitybySkill,Ac Ba	PRESKILL:1,Tumble=12	PREVARLT:AbilitybySkillCount,AbilitybySkillMax	DEFINE:AbilitybySkillCount|0		DESC:<appropriate description>	BONUS:VAR|AbilitybySkillCount|1
+
+#####
+#Each ability takes one line, just like a feat, and the first field must be the abilities' name. In the Example the name of the ability is My Ability.
+#When naming feats you should only use parentheses at the end of the name if the name is not duplicated elsewhere. This is
+#because of how PCGen names abilities which can be taken multiple times. For example, the Feat/ability Weapon Focus when taken will display
+#as Weapon Focus(Dagger). Another example is Armor Proficiency (Light), there is no feat named Armor Proficiency so this name
+#is fine. What is happening is when PCGen finds a feat with parentheses that duplicates the name of another feat it assumes
+#that feat is an instance of the one without parentheses and does not display the one with parentheses.
+#
+#The TYPE tag is holding a . (period) delimited list of the types the ability/feat is.
+#
+#The DESC tag is used to hold the description of the Ability/Feat. In our files we usually keep the description brief, so the user
+#still need to own the book to make use of of the data, but for your personal files can get as elaborate as you want there.
+#
+#The MULT tag determines if a ability/feat can be taken multiple times. If the value is set to YES, then you MUST also use a CHOOSE
+#tag.
+#
+#The CHOOSE tag must be paired with a MULT:YES tag in feats for it to work properly. It will display a popup window that asks
+#for a selection according to what is being called for. There is a multitude of existing CHOOSE tags in PCGen. If you are
+#looking into the documentation under List File Tag Index, you can find them listed under the topic "CHOOSE tags".
+#
+#The BONUS tags are a group of similar tags, that grant some form of Bonus to another already existing tag. To read a description
+#of them, look in the List File Tag Index under the topic "Bonus tags".
+#
+#The SOURCEPAGE tag can be used to hold a reference to where you can find the feat. This will be displayed in PCGen.

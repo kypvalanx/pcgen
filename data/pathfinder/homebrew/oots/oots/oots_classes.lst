@@ -1,0 +1,76 @@
+# CVS $Revision$ $Author$ -- Tue Dec 15 01:48:08 2015 -- reformated by PCGen PrettyLST v6.06.00
+SOURCELONG:My Pathfinder Campaign	SOURCESHORT:MPC	SOURCEWEB:http://www.mywebsite.com	SOURCEDATE:2008-01
+
+# Class Name		Hit Dice	Type			Max Level	Source Page		Combat bonus																Save bonus																							Modify VAR																																																												FACT
+CLASS:Dashing Swordsman	HD:8		TYPE:PC.Prestige	MAXLEVEL:10	SOURCEPAGE:p.260
+CLASS:Dashing Swordsman	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0
+CLASS:Dashing Swordsman	BONUS:SAVE|BASE.Fortitude,BASE.Will|(classlevel("APPLIEDAS=NONEPIC"))/3
+CLASS:Dashing Swordsman	BONUS:SAVE|BASE.Reflex|(classlevel("APPLIEDAS=NONEPIC")+4)/2
+CLASS:Dashing Swordsman	BONUS:VAR|ClassBABFull|classlevel("APPLIEDAS=NONEPIC")|PREVAREQ:UseFractionalBAB,1
+CLASS:Dashing Swordsman	BONUS:VAR|ClassSavePoor_Fortitude|classlevel("APPLIEDAS=NONEPIC")|PREVAREQ:UseFractionalSave,1
+CLASS:Dashing Swordsman	BONUS:VAR|ClassSaveGood_Reflex|classlevel("APPLIEDAS=NONEPIC")|PREVAREQ:UseFractionalSave,1
+CLASS:Dashing Swordsman	BONUS:VAR|ClassSavePoor_Will|classlevel("APPLIEDAS=NONEPIC")|PREVAREQ:UseFractionalSave,1
+CLASS:Dashing Swordsman	FACT:ClassType|PC	FACT:Abb|DS
+CLASS:Dashing Swordsman	DEFINE:DashingSwordsmanLVL|CL
+# Class Name		Required Ability														Required Skill											PRETOTALAB
+CLASS:Dashing Swordsman	PREABILITY:3,CATEGORY=FEAT,Dodge,Combat Reflexes,Weapon Finesse
+CLASS:Dashing Swordsman	PRESKILL:3,Bluff=5,Acrobatics=5,Perform (Comedy)=5
+CLASS:Dashing Swordsman	PRETOTALAB:5
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Dashing Swordsman	STARTSKILLPTS:6	CSKILL:Acrobatics|Bluff|Climb|TYPE=Craft|Diplomacy|Disguise|Escape Artist|Intimidate|Knowledge (Local)|TYPE=Perform|TYPE=Profession|Sense Motive|Sleight of Hand|Swim
+###Block: Vars
+4	BONUS:VAR|UncannyDodgeFlankingLevel|DashingSwordsmanLVL|TYPE=EachClass.REPLACE
+4	BONUS:VAR|UncannyDodgeLVL|DashingSwordsmanLVL/4
+8	BONUS:VAR|ImprovedUncannyDodgeFlankingLevel|DashingSwordsmanLVL|TYPE=EachClass.REPLACE
+##Block: Normal Level Progression
+1	BONUS:ABILITYPOOL|Dashing Swordsman Bonus Feat|1
+1	ABILITY:Dashing Swordsman Class Feature|AUTOMATIC|Dashing Swordsman ~ Swashbuckler	ABILITY:Dashing Swordsman Class Feature|AUTOMATIC|Dashing Swordsman ~ Dashing Strike
+2	ABILITY:Dashing Swordsman Class Feature|AUTOMATIC|Dashing Swordsman ~ Quip	ABILITY:Dashing Swordsman Class Feature|AUTOMATIC|Dashing Swordsman ~ Extra Critical Damage	BONUS:ABILITYPOOL|Quip Selection|CL/2	BONUS:VAR|QuipLVL|CL
+3	ABILITY:Dashing Swordsman Class Feature|AUTOMATIC|Dashing Swordsman ~ Dramatic Entrance	BONUS:ABILITYPOOL|Dashing Swordsman Bonus Feat|1
+4	ABILITY:Special Ability|AUTOMATIC|Uncanny Dodge ~ Base	BONUS:VAR|UncannyDodgeLVL|1
+5	BONUS:ABILITYPOOL|Dashing Swordsman Bonus Feat|1
+6
+7	BONUS:ABILITYPOOL|Dashing Swordsman Bonus Feat|1
+8	ABILITY:Dashing Swordsman Class Feature|AUTOMATIC|Dashing Swordsman ~ Surprising Entrance
+9	ABILITY:Special Ability|AUTOMATIC|Uncanny Dodge ~ Base	BONUS:VAR|UncannyDodgeLVL|1		BONUS:ABILITYPOOL|Dashing Swordsman Bonus Feat|1
+10	ABILITY:Dashing Swordsman Class Feature|AUTOMATIC|Dashing Swordsman ~ Better Lucky Than Skilled
+
+
+
+#####
+#Class files are where each class is listed, given it's important information for the correct output and functioning of the
+#class. Each class has 2 components to it: The main class line and the class level line. The class line begins with CLASS
+#and the class level line begins with a level # (0, 1, 2, etc).
+#
+#The CLASS tag tells PCGen the class name and sets up the relationships with skills and spells. This line can be entered
+#multiple times in a single class entry (appearing on separate lines) for purposes of making the lines easier to read in an
+#editor (so as to not have to scroll forever to reach the end of the class line). THIS MUST BE THE FIRST TAG!!!
+#
+#The HD tag sets the Hit Die used to determine hit points at each level gained.
+#
+#The TYPE tag is used within the filters of PCGen to sort the classes by their respective types (makes it easier to find a
+#specific class).
+#
+#The ABB tag can be used to hold a 3-5 letter abbreviation of the class name.
+#
+#The MAXLEVEL tag sets the maximum number of levels of the class you can add to a character. You can use MAXLEVEL:NOLIMIT in addition to a number.
+#
+#The SOURCEPAGE tag can be used to hold a reference to where you can find the class. This will be displayed in PCGen.
+#
+#The LANGAUTO tag is holding a list of languages that the character automatically gains.
+#
+#The BONUS tags are a group of similar tags, that grant some form of Bonus to another already existing tag. To read a description
+#of them, look in the List File Tag Index under the topic "Bonus tags".
+#
+#The STARTSKILLPTS tag determines how many skill points a character gains per level.
+#
+#The CSKILL tag grants the listed skills as class skills. When used in a classes.lst, it grants the class skills only to the
+#class it is actually in.
+#
+#The FEATAUTO tag holds a list of feats that the class automatically gets.
+#
+#The SA tag is holding a text that will be displayed as Special Ability on the output sheet.
+#
+#The ADD:FEAT tag will give the character a choice of one from the feats listed in the parentheses. If the feat being added
+#has a chooser ADD:FEAT is the only tag which will activate it (VFEAT, MFEAT and FEATAUTO will not). Besides of ADD:FEAT, there
+#is a multitude of ADD tags in PCGen. You can look them up in the List File Tag Index under the topic "ADD Tags".
