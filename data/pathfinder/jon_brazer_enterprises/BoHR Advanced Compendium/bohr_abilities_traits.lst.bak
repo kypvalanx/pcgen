@@ -1,0 +1,80 @@
+SOURCELONG:Book of Heroic Races Advanced Compendium
+@	SOURCESHORT:BoHRAC
+@	SOURCEWEB:https://jonbrazer.com/
+@	SOURCEDATE:2017
+
+#Android
+Memory Banks
+@	KEY:Trait ~ Memory Banks
+@	CATEGORY:Special Ability
+@	TYPE:Trait.RaceTrait.Android (Advanced)Trait
+@	PREMULT:1,[PREABILITY:1,CATEGORY=Special Ability,Trait ~ Memory Banks],[PREVAREQ:BypassTraitRestriction,1],[!PREABILITY:1,CATEGORY=Special Ability,TYPE.RaceTrait]
+@	PRERACE:Android (Advanced)
+@	DESC:Your body's circuitry maintains records which you have learned to access. You gain a +1 trait bonus on Knowledge (history) checks, and Knowledge (history) is always a class skill for you.
+@	BONUS:SKILL|Knowledge (History)|1
+@	CSKILL:Knowledge (History)
+@	SOURCEPAGE:8
+
+Overclocked
+@	KEY:Trait ~ Overclocked
+@	CATEGORY:Special Ability
+@	TYPE:Trait.RaceTrait.Android (Advanced)Trait
+@	PREMULT:1,[PREABILITY:1,CATEGORY=Special Ability,Trait ~ Overclocked],[PREVAREQ:BypassTraitRestriction,1],[!PREABILITY:1,CATEGORY=Special Ability,TYPE.RaceTrait]
+@	PRERACE:Android (Advanced)
+@	DESC:Your biological circuitry runs with extreme efficiency, making you ever ready for action. You gain a +2 trait bonus on initiative checks.
+@	BONUS:COMBAT|INITIATIVE|2|TYPE=Trait
+@	SOURCEPAGE:8
+
+#Lizardfolk
+Autotomic Tail
+@	KEY:Trait ~ Autotomic Tail
+@	CATEGORY:Special Ability
+@	TYPE:Trait.RaceTrait.LizardfolkAdvancedTrait
+@	PREMULT:1,[PREABILITY:1,CATEGORY=Special Ability,Trait ~ Autotomic Tail],[PREVAREQ:BypassTraitRestriction,1],[!PREABILITY:1,CATEGORY=Special Ability,TYPE.RaceTrait]
+@	PREMULT:1,[PRERACE:1,Lizardfolk (Advanced)],[PREABILITY:1,CATEGORY=Special Ability,Adoptive Race ~ Lizardfolk (Advanced)]
+@	DESC:Your tail can break off and regrow itself, allowing you to escape certain situations more easily. You may take a +20 trait bonus to any CMB check or Escape Artist check to escape a grapple or full-body restraint as a swift action; when you do so, your tail breaks off, and you lose any benefits gained from having a tail until it regenerates. The tail regrows itself in 1d6+8 days (if you have regeneration, such as from a magic ring, spell, or othereffect, this time is halved).
+@	BONUS:SITUATION|Escape Artist=Body Fully Restrained|20|TYPE=Trait
+@	BONUS:VAR|CMB_Grapple|20|TYPE=Trait
+@	SOURCEPAGE:p.6
+
+Expressive Dewlap
+@	KEY:Trait ~ Expressive Dewlap
+@	CATEGORY:Special Ability
+@	TYPE:Trait.RaceTrait.LizardfolkAdvancedTrait
+@	PREMULT:1,[PREABILITY:1,CATEGORY=Special Ability,Trait ~ Expressive Dewlap],[PREVAREQ:BypassTraitRestriction,1],[!PREABILITY:1,CATEGORY=Special Ability,TYPE.RaceTrait]
+@	PREMULT:1,[PRERACE:1,Lizardfolk (Advanced)],[PREABILITY:1,CATEGORY=Special Ability,Adoptive Race ~ Lizardfolk (Advanced)]
+@	DESC:You have a colorful flap of skin beneath your chin and neck that expands dramatically when you breathe, and you can use this when attempting to impress others. You gain a +2 trait bonus to all Intimidate and Perform checks and also on Bluff and Diplomacy checks against any creatures of the dragon type or reptilian subtype who are sexually attracted to you.
+@	BONUS:SKILL|Intimidate,Perform|2
+@	BONUS:SITUATION|Bluff=Dragon Type or Reptillian SubType and Potentially Sexually Attracted|2|TYPE=Trait
+@	BONUS:SITUATION|Diplomacy=Dragon Type or Reptillian SubType and Potentially Sexually Attracted|2|TYPE=Trait
+@	SOURCEPAGE:p.6
+
+Nictitating Membranes
+@	KEY:Trait ~ Nictitating Membranes
+@	CATEGORY:Special Ability
+@	TYPE:Trait.RaceTrait.LizardfolkAdvancedTrait
+@	PREMULT:1,[PREABILITY:1,CATEGORY=Special Ability,Trait ~ Nictitating Membranes],[PREVAREQ:BypassTraitRestriction,1],[!PREABILITY:1,CATEGORY=Special Ability,TYPE.RaceTrait]
+@	PREMULT:1,[PRERACE:1,Lizardfolk (Advanced)],[PREABILITY:1,CATEGORY=Special Ability,Adoptive Race ~ Lizardfolk (Advanced)]
+@	DESC:You possess a secondary set of translucent eyelids that protect you from assaults against your vision. You gain a +2 trait bonus to all saving throws against effects that would cause you to become blinded.
+@	ASPECT:SaveBonus|+2 trait bonus on all saving throws against blinding effects
+@	SOURCEPAGE:p.6
+
+Pain Tolerance
+@	KEY:Trait ~ Pain Tolerance
+@	CATEGORY:Special Ability
+@	TYPE:Trait.RaceTrait.LizardfolkAdvancedTrait
+@	PREMULT:1,[PREABILITY:1,CATEGORY=Special Ability,Trait ~ Pain Tolerance],[PREVAREQ:BypassTraitRestriction,1],[!PREABILITY:1,CATEGORY=Special Ability,TYPE.RaceTrait]
+@	PREMULT:1,[PRERACE:1,Lizardfolk (Advanced)],[PREABILITY:1,CATEGORY=Special Ability,Adoptive Race ~ Lizardfolk (Advanced)]
+@	DESC:You gain a +2 trait bonus to Constitution checks made to stabilize when reduced to negative hit points, as well as to concentration checks made due to taking damage while casting spells.
+@	BONUS:SITUATION|CON=Stablize|2|TYPE=Trait
+@	SOURCEPAGE:p.6
+
+Tough-Scaled
+@	KEY:Trait ~ Tough-Scaled
+@	CATEGORY:Special Ability
+@	TYPE:Trait.RaceTrait.LizardfolkAdvancedTrait
+@	PREMULT:1,[PREABILITY:1,CATEGORY=Special Ability,Trait ~ Tough-Scaled],[PREVAREQ:BypassTraitRestriction,1],[!PREABILITY:1,CATEGORY=Special Ability,TYPE.RaceTrait]
+@	PREMULT:1,[PRERACE:1,Lizardfolk (Advanced)],[PREABILITY:1,CATEGORY=Special Ability,Adoptive Race ~ Lizardfolk (Advanced)]
+@	DESC:You gain a +2 trait bonus to your AC against critical hit confirmation rolls from bludgeoning, piercing, or slashing weapons.
+@	BONUS:SITUATION|AC=Critical Confirmation|2|TYPE=Trait
+@	SOURCEPAGE:p.6

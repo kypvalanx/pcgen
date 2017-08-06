@@ -1,0 +1,9 @@
+Coral
+@	KEY:CORAL
+@	NAMEOPT:NORMAL
+@	TYPE:BaseMaterial.Mundane.Ammunition.Armor.Shield.Weapon.Instruments.Tools.Goods
+@	COST:0
+@	VISIBLE:QUALIFY
+@	ITYPE:Metal
+@	PREMULT:1,[PRETYPE:1,EQMOD=STEEL],[!PRETYPE:1,EQMODTYPE=Mundane]
+@	!PRETYPE:1,Wooden

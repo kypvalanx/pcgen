@@ -17,13 +17,13 @@
  */
 package pcgen.cdom.converter;
 
-import java.util.Collection;
-import java.util.stream.Collectors;
-
 import pcgen.base.util.ObjectContainer;
 import pcgen.cdom.base.Converter;
 import pcgen.cdom.base.PrimitiveFilter;
 import pcgen.core.PlayerCharacter;
+
+import java.util.Collection;
+import java.util.stream.Collectors;
 
 public class DereferencingConverter<T> implements Converter<T, T>
 {

@@ -1,0 +1,320 @@
+# &=not started, !=in process, *=done
+
+! Androids
+	! Racial Traits
+		* Racial Traits
+			* Exceptional Senses
+			* Alert
+			* Constructed
+			* Logical
+			* Nanite Surge
+		* Traits
+			* Memory Banks
+			* Overclocked
+		! Alternate Racial Traits
+			* Anomaly
+			! Conduit
+			* Factual
+			* Ironspy
+			! Magitech
+	! Racial Options
+		! Racial Archetypes
+			! Living Weapon
+			! Nanoshade
+				Disruptive Nanites
+			! Thought Scribe
+			! Wiremind
+		& Alchemist Discovery
+		& Barbarian/Skald Rage Power
+		& Rogue/Slayer Talent
+		& Advanced Rogue/Slayer Talent
+		& Racial Feats
+			& Conductive Body
+			& Extra Nanite Reserve
+			& Extra Nanite Surge
+			& Formula Mastery
+			& Improved Conductive Body
+			& Magitech Spell (Metamagic)
+			& Overcharge Strike
+		& Racial Equipment
+	& Racial Magic and Psyonics
+		& Animate Chassis
+		& Locate Vessel
+		& Nanite Cloud
+		& Upload
+	& Racial Magic Items
+		& Android Nullifer
+		& Nanite Key
+		& Reconnisance Engine
+		& Seeker's Visor
+
+& Catfolk
+	Racial Traits
+		Racial Traits
+		Traits
+		Alternate Racial Traits
+	Racial Options
+		Racial Archetypes
+			Feral Rager
+			Treedancer
+		Rogue Telents
+		Sorcer Bloodline
+		Racial Feats
+			Cat's-Paw
+			Copy-Cat
+			Dangerous When Cornered
+			Frightning Sneak
+			Lethal Charge
+			Pounce and Rake
+			Rolling Strike
+			Sensitive Whiskers
+			Subduing Slap
+		Racial Equipment
+	Racial Magic
+		Disdain Circle
+		Toxoplasmosis
+		Vengeful Clowder
+	Disease
+		Toxoplasmosis
+	Racial Magic Items
+		All-Gods' Prayer Kit
+		Sunwine
+
+& Changeling
+	Racial Traits
+		Racial Traits
+		Race Traits
+		Alternate Racial Traits
+	Racial Options
+		Racial Archetypes
+			Heartshorn Witch
+			Incantrix
+		Rogue Telents
+		Bloodrager Bloodline
+			Accursed
+			Cleansed
+		Sorcer Bloodline
+			Cleansed
+		Racial Feats
+			Accursed Blood
+			Accursed Heritage
+			Potion Lung
+			Spell Assistant
+			Tooth and Claw
+		Racial Equipment
+			Eye Dye
+			Eye Dye, Specific
+	Racial Magic
+		Continual Darklight
+		Darklight
+		Hag Aspect, Lesser
+		Hag Aspect
+		Hag Aspect, Greater
+		Quicksilver Gaze
+	Racial Magic Items
+		Aplomb Amulet
+		Empathy Band
+		Incognito Cap
+
+& Elans
+	Racial Traits
+		Racial Traits
+		Traits
+		Alternate Racial Traits
+	Racial Options
+		Racial Archetypes
+			Ratha Priest Slayer
+			Creche Defender
+		Rogue Talents
+		Advanced Rogue Talents
+		Arcane Elan Bloodline
+		Racial Feats
+			Collective Adept
+			Elan Collective
+			Erosion of Will
+			Improved Transfer
+			Rapid Focus
+			Synaptic Reroute
+		Racial Equipment
+	Racial Psyonics
+		Defensive Drain
+		Fleeting Memory
+		Fretful Slumber
+		Sacrificial Overcharge
+		Wave of Terror
+	Racial Psyonic Items
+		Chain of the Prodigy
+		Cognizance Crystals, Elan-Crafted
+		Crystal Mask of the Elan
+		Crystal Mast of the Prodigy
+		Third Eye of the Prodigy
+		Cursed Item; Third Eye of Mental Exertion
+
+& Gillmen
+	Racial Traits
+		Racial Traits
+		Traits
+		Alternate Racial Traits
+	Racial Options
+		Racial Archetypes
+			Wave Crasher
+			Lightning Caster
+			Tentacled Horror
+		Familiar
+			Catshark
+		Aegis 1-Point Customizations
+			Gliding Swim
+		Hunter Animal Foci
+			Shark
+			Squid
+		Soulknife Blade Skills
+			Watery Weapon
+		Time Thief Temporal Talent
+			Water Pressure
+		Order of the Sinking Ship (Cavalier)
+		Animal Companions
+			Giant Seahorse
+			Giant Snapping Turtle
+			Manta Ray
+			Sting Ray
+		Racial Feats
+			Deep Sea Swimmer
+			Land Walker
+			Squid Style
+			Squid Crush
+			Squid Swim
+		Racial Equipment
+			Replacement Legs
+	Racial Magic
+		Might of the Depths
+		Ocean's Lure
+		Sea Telepathy
+		Spray of Salmon
+		Strength of the Wave
+		Summon Dragon Turtle
+		Swordfish Strike
+		Wall of Water
+	Racial Magic Items
+		Alanqua's Reel
+		Buoyant Shield
+		Deep Amulet
+		Gill Seaweed
+		Gill Collar
+		Seaspell
+
+! Lizardfolk
+	! Racial Traits
+		* Racial Traits
+			* Hold Breath
+			* Natural Armor
+			* Natural Attacks
+			* Swim Speed
+		! Traits
+			! Autonomic Tail
+			! Expressive Dewlap
+			* Nicitating Membranes
+			! Pain Tolerance
+			! Tough-Scaled
+		! Alternate Racial Traits
+			* Adhesive Feet
+			! Change Color
+			! Disease Bite
+			! Dragonsired
+			! Hulk
+			! Parietal Eye
+			! Pygmy
+	! Racial Options
+		& Racial Archetype
+			& Tribal Defender
+		& Bloodrager Bloodline
+			& Cannibal
+		& Prestige Class
+			& Annointed One
+		! Racial Feats
+			* Aquatic Adaptation
+			! Dangerous Tail
+			* Death Roll
+			! Draconic Resiliance
+			! Dragonsired Champion
+			* Elongated Talons
+			* Jaws of Death
+			! Motile Chameleon
+			! Nauseating Bite
+			! Paralyzing Bite
+			! Propelling Tail
+			! Quick Climber
+			! Reckless Strike
+			! Scion of Wyrms
+			! Shield Hop
+			! Sickening Bite
+			! Swift Swimmer
+			! Wall Slinker
+	& Racial Magic
+		& Squall
+	& Racial Magic Items
+		& Bead of Incubation
+		& Couatlskin Cape
+		& Scabbard of Wrath
+
+! Merfolk
+	Racial Traits
+		Racial Traits
+			Slow Speed
+			Amphibious
+			Low-Light Vision
+			Armored Scales
+			Legless
+		Alternate Racial Traits
+			DarkVision
+			Insatiable Curiosity
+			Seasinger
+			Siren
+			Strongtail
+			Walk the Land
+		Racial Subtypes
+			Angufolk
+			Octopi
+	Racial Options
+		Racial Archetypes
+			Cyraniel
+		Racial Class Options
+			Rogue Talents
+				Assassin Sink
+			Sorcerer Bloodline
+			Bloodrager Bloodline
+		Racial Feats
+			Clear as Mud
+			Octolegged
+			Improved Sea Hunter
+			Water Aerobics
+		Racial Equipment
+			Coral Armor
+			Edible Cork
+			Great Trident
+			Kelp Armor
+			Kelp Rope
+			Marine Algea
+			Mermaid Weed
+			Sea Charts
+			Sharkskin Leather Shirt
+	Racial Magic
+		Adapt Fin
+		Fish Breath
+		Fish Fins
+		Sonar
+	Racial Magic Items
+		Belt of Landwalker
+		Ink Cloud Grenade
+		Staff of Twisted Form
+		Trident of the Seven Seas
+	Spellblight
+
+& Samsarans
+
+& Skinwalkers
+
+& Tengus
+
+& Wyrwoods
+
+& Wyvarans
