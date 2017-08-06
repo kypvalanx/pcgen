@@ -1,0 +1,11 @@
+SOURCELONG:Book of Heroic Races Advanced Compendium	SOURCESHORT:BoHRAC	SOURCEWEB:https://jonbrazer.com/	SOURCEDATE:2017
+
+#ABILITYCATEGORY:Android Racial Trait		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:Android (Advanced) Racial Trait		PLURAL:Android Racial Traits	DISPLAYLOCATION:Racial Abilities
+
+ABILITYCATEGORY:Lizardfolk Advanced Racial Trait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:Race Traits ~ Lizardfolk (Advanced)		PLURAL:Lizardfolk Racial Traits	DISPLAYLOCATION:Racial Abilities
+
+#ABILITYCATEGORY:Merfolk Racial Trait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO	FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:Merfolk (Advanced) Racial Trait	PLURAL:Merfolk Racial Subtypes		DISPLAYLOCATION:Racial Abilities
+
+#ABILITYCATEGORY:Merfolk Racial Subtype	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:Merfolk (Advanced) Racial Subtype	ABILITYLIST:Racial Subtype ~ None	PLURAL:Merfolk Racial Subtypes		DISPLAYLOCATION:Racial Abilities
+
+

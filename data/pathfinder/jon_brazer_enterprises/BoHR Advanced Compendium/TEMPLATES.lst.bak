@@ -1,0 +1,10 @@
+
+Race Trait Template
+@	KEY:Trait ~ {TODO TRAIT NAME}
+@	CATEGORY:Special Ability
+@	TYPE:Trait.RaceTrait.{TODO RACE NAME}Trait
+@	PREMULT:1,[PREABILITY:1,CATEGORY=Special Ability,Trait ~ {TODO TRAIT NAME}],[PREVAREQ:BypassTraitRestriction,1],[!PREABILITY:1,CATEGORY=Special Ability,TYPE.RaceTrait]
+@	PRERACE:{TODO RACE NAME}
+@	DESC:{TODO DESC}
+@	{TODO Effects}
+@	SOURCEPAGE:{TODO PAGE_NUMBER}
