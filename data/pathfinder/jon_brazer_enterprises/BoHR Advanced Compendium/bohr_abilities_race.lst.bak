@@ -64,7 +64,7 @@ Parietal Eye	KEY:Lizardfolk (Advanced) ~ Parietal Eye	CATEGORY:Special Ability	T
 ##
 ##
 ##
-Bonus Skills (Escape Artist & Acrobatics)	KEY:Favored Class Bonus ~ Skills Escape Artist Acrobatics (LizardFolkAdvanced)	CATEGORY:Special Ability	TYPE:SpecialQuality.FavoredClassBonus.FavoredClassMonk	VISIBLE:YES	PREABILITY:1,CATEGORY=Special Ability,Monk	PRECLASS:1,Monk=1	
+Bonus Skills (Escape Artist & Acrobatics)	KEY:Favored Class Bonus ~ Skills Escape Artist Acrobatics (LizardFolkAdvanced)	VISIBLE:DISPLAY	STACK:YES	MULT:YES	CHOOSE:NOCHOICE	CATEGORY:Special Ability	TYPE:SpecialQuality.FavoredClassBonus.FavoredClassMonk	VISIBLE:YES	PREABILITY:1,CATEGORY=Special Ability,Monk	PRECLASS:1,Monk=1	
 
 
 
