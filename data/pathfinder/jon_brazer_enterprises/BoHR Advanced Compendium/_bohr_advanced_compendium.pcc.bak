@@ -15,7 +15,7 @@ SOURCEWEB:https://jonbrazer.com/
 SOURCEDATE:2017
 ISOGL:NO
 COPYRIGHT:My Pathfinder Campaign, Copyright 2017 by PCGen Team
-PRECAMPAIGN:2,INCLUDESBOOKTYPE=Core Rules, INCLUDES=Inner Sea Bestiary
+PRECAMPAIGN:2,INCLUDESBOOKTYPE=Core Rules,INCLUDES=Inner Sea Bestiary
 
 #INFOTEXT:To display an Information in the Source Info section on the Source Materials tab, replace the text after 'INFOTEXT:' with your text and remove the '#'
 

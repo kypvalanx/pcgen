@@ -27,7 +27,7 @@ ABILITY:bohr_abilities_race.lst
 ABILITY:bohr_abilities_traits.lst
 ABILITY:bohr_abilities_class.lst
 ABILITY:bohr_feats.lst
-#BIOSET:my_biosettings.lst
+BIOSET:bohr_biosettings.lst
 #CLASS:my_classes.lst
 #COMPANIONMOD:my_companionmods.lst
 #DEITY:my_deities.lst
